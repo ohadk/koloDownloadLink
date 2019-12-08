@@ -1,0 +1,9 @@
+# Don't track content of these folders
+node_modules/
+bin/
+public/
+views/
+
+# Compiled source 
+npm-debug.log
+
