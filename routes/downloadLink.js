@@ -3,7 +3,7 @@ var MobileDetect = require('mobile-detect');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/downloadLink', function(req, res, next) {
   var md = new MobileDetect(req.headers['user-agent']);
   var isMobile = md.mobile();
   /* First, lets check that this is an mobile device */
